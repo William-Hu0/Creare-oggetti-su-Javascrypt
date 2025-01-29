@@ -1,0 +1,15 @@
+1.Puoi assegnare solo un semplice valore ad una variabile mentre ad un oggetto assegni più valori
+2.usi let per le variabilie e const per gli oggetti
+3.apri una parentesi grafa e scrivi le proprietà ed a fianco tra virgolette il valore della proprietà
+4.separare le proprietà tra di loro e metterne di più di una
+5.per accedere al valore della proprietà scrivere il nome dell'oggetto.nome della proprietà per esempio: 
+const person = {
+  firstName: "John",
+  lastName : "Doe",
+  id     :  5566
+};
+document.getElementById("demo").innerHTML =
+"The last name is " + person.lastName;
+un altro metodo è:
+document.getElementById("demo").innerHTML =
+"The last name is " +  person["lastName"];
