@@ -13,3 +13,7 @@ document.getElementById("demo").innerHTML =
 un altro metodo è:
 document.getElementById("demo").innerHTML =
 "The last name is " +  person["lastName"];
+6.una funzione collegata ad un 
+7.nome della funzione con dopo () e i ;
+8.per accedere ad un oggetto
+9.possiamo ad esempio fare un bottone per cui onclick="nome della funzione" la fa partire
